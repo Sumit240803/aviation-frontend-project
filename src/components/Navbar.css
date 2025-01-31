@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #f6f6f6;
+}
+
+.right-nav{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
