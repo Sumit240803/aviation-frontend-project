@@ -69,6 +69,56 @@ const Home = () => {
             <img src="/img-4.avif" alt="" />
             <img src="/img-7.avif" alt="" />
         </div>
+        <div className="section-7">
+            <div className="section-7-left">
+                <div className="section-7-left-heading">
+
+                <p>Heritage Meets Innovation</p>
+                <h2>Heritage Meets Innovation</h2>
+                </div>
+                <div className='section-7-left-bullet'> 
+                    <h3>Aerodynamic Perfection</h3>
+                    <p>The sleek, streamlined shape of our aircraft is engineered for superior aerodynamics, reducing drag and improving fuel efficiency. This careful balance of form and function allows for smoother, further, faster flying that ever before.</p>
+                </div>
+                <div className='section-7-left-bullet'>
+                    <h3>Iconic Design Meets Modern Technology</h3>
+                    <p>Inspired by aviation's golden era, the ElectraX model showcases iconic design elements paired with cutting-edge technology. From the gleaming exterior our aircrafts are a testament to excellence.</p>
+                </div>
+            </div>
+            <div className="section-7-right">
+                <img src="/img-8.avif" alt="" />
+            </div>
+            
+        </div>
+        <div className='section-8'>
+                <div
+                className='section-8-left'>
+                    <img src="/img-9.avif" alt="" />
+                </div>
+                <div className='section-8-right'>
+                    <p>Our Story</p>
+                    <h2>Learn About Our Mission</h2>
+                    <p>From weather updates to navigational data, ElectraX ensures seamless transmission of critical information. With real-time flight tracking you’ll receive vital data instantly.</p>
+                    <a href="about">Read About Us</a>
+                </div>
+        </div>
+        <div className='section-9'>
+            <div className='section-9-heading'>
+                <h1>News & Resources</h1>
+                <a href="news">News & Resources</a>
+            </div>
+            <div className='section-9-news'>
+                <div className="section-9-img-1">
+                    <p>Aviation and Globalization</p>
+                </div>
+                <div className="section-9-img-2">
+                    <p>Safety Standards in Aviation</p>
+                </div>
+                <div className="section-9-img-3">
+                    <p>Breakthrough in Material Science</p>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
