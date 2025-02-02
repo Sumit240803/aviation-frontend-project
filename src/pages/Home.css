@@ -60,29 +60,76 @@
 
 .section-3{
     display: flex;
-    padding:5px 70px;
+    padding:5px 100px;
     gap: 20px;
+    align-items: center;
 }
-.section-3-left{
-    padding: 430px;
+.section-3-left {
+    width: 100%; /* Reduce the width */
+    height: 800px; /* Set a fixed height */
     background-image: url("/img-2.avif");
     background-position: center;
-    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 30px;
-}
-.section-3-left-top-heading{
-    position: absolute;
-    top: 40px;
-    left: 60px;
-    font-size: 40px;
+    position: relative;
+    padding: 20px; /* Reduce padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align content properly */
 }
 
-.section-3-left-bottom{
+.section-3-left-top-heading {
+    position: absolute;
+    top: 20px; /* Adjust positioning */
+    left: 30px;
+    font-size: 32px; /* Reduce font size */
+}
+
+.section-3-left-bottom {
     background-color: #f6f6f6;
     position: absolute;
-   bottom: 100px;
-   left: 30px;
-   right: 200px;
-   padding: 20px;
-   border-radius: 20px;
+    bottom: 60px; /* Adjust positioning */
+    left: 20px;
+    right: 20px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.section-3-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 800px;
+    
+    
+}
+
+.section-3-right-upper{
+    
+    border-radius: 30px;
+    height: fit-content;
+    background-color: #f6f6f6;
+    overflow-y: hidden;
+}
+.section-3-right-upper img{
+    width: 100%;
+}
+.section-3-right-upper-text{
+    padding: 10px;
+}
+
+.section-3-right-lower img{
+    width: 100%;
+}
+.section-3-right-lower{
+    background-color: black;
+    border-radius: 30px;
+    overflow-y: hidden;
+    color: white;
+    padding: 20px;
+}
+.section-3-right-lower p{
+    color: rgb(185, 185, 185);
 }

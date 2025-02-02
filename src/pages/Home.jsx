@@ -36,19 +36,22 @@ const Home = () => {
                 </div>
             </div>
             <div className='section-3-right'>
-                <div>
+                <div className='section-3-right-upper'>
                     <img src="/img-3.avif" alt="" />
-                    <div>
+                    <div className='section-3-right-upper-text'>
                         <h1>Cutting-Edge Materials</h1>
                         <p>Constructed from advanced lightweight materials, ElectraX aircraft maximize durability while minimizing weight, improving both fuel efficiency and overall performance.
                         </p>
                     </div>
                 </div>
-                <div>
+                <div className='section-3-right-lower'>
+                    <img src="/img-4.avif" alt="" />
+                    <div>
                     <h1> Engineered for the Future
                     </h1>
                     <p>From the propulsion system to the aerodynamic body, each element is designed to push the boundaries of what’s possible in personal aviation. It’s not just a plane—it’s a masterpiece of engineering.
                     </p>
+                    </div>
                 </div>
             </div>
         </div>
