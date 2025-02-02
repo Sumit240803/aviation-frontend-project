@@ -55,6 +55,9 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className='section-4'>
+<h2>At ElectraX, we blend the timeless elegance of the iconic Electra with cutting-edge technology to create personal aircraft that redefine the skies. Our mission is to honor aviation history while pioneering the future of personal flight.</h2>
+        </div>
     </div>
   )
 }
