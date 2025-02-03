@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto" , serif;
+}
 .section-1{
     background-color: #f6f6f6;
     display: flex;
@@ -385,6 +389,7 @@
 .section-11{
     height: 100vh;
     background-color: #f6f6f6;
+    overflow-y: hidden;
 }
 .top-footer{
     display: flex   ;
@@ -394,7 +399,7 @@
 .mid-footer{
     display: flex;
     justify-content: space-between;
-    padding: 50px 100px;
+    padding: 30px 100px;
 }
 .mid-left{
     width: 25%;
@@ -403,4 +408,61 @@
     display: flex;
     justify-content: space-between;
     gap: 150px;
+}
+.lower-mid{
+    padding: 0 100px;
+    height: 80px;
+    margin-bottom: 10px;
+    
+}
+.end-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    
+}
+.end-right{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+}
+.mid-right h3{
+    color: rgb(85, 85, 85);
+}
+.mid-right li a{
+    color: black;
+}
+.mid-right li{
+    padding: 10px 0px;
+}
+.mid-left p {
+    margin-top: 8px;
+}
+.mid-left h4{
+    margin-top: 13px;
+}
+.end-right a{
+    color: black;
+    font-size: large;
+}
+.lower-mid a{
+    background-color: #d2d2d2;
+    padding: 5px;
+    border-radius: 100%;
+    text-align: center;
+    width: fit-content;
+    margin: 0 10px;
+    
+}
+.lower-mid img{
+    width: 15px;
+}
+.lower-mid h2{
+    margin-bottom: 20px;
+}
+.end-footer a{
+    color: black;
+    margin: 0 5px;
 }

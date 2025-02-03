@@ -40,7 +40,7 @@ const Home = () => {
                         <img src="/img-3.avif" alt="" />
                         <div className='section-3-right-upper-text'>
                             <h1>Cutting-Edge Materials</h1>
-                            <p>Constructed from advanced lightweight materials, ElectraX aircraft maximize durability while minimizing weight, improving both fuel efficiency and overall performance.
+                            <p>Constructed from advanced lightweight materials, ElectraX aircraft maximize durability while minimizing weight
                             </p>
                         </div>
                     </div>
@@ -133,11 +133,11 @@ const Home = () => {
                 <div className="top-footer">
                     <div>
                         <h1>Join Our Newsletter</h1>
-                        <p>We’ll send you a nice letter once per week. No spam.</p>
+                        <p style={{"paddingTop" : "10px"}}>We’ll send you a nice letter once per week. No spam.</p>
                     </div>
                     <div>
-                        <input type="text" placeholder='Enter Your Email'/>
-                        <span><button>Subscribe</button></span>
+                        <input style={{"padding" : "10px" , "width" : "350px" , "border" : "1px solid gray" , "borderRadius" : "6px" , "marginBottom" : "9px"}} type="text" placeholder='Enter Your Email'/>
+                        <span ><button style={{"padding" : "10px", "borderRadius" : "6px" , "border" : "1px solid black"}}>Subscribe</button></span>
                         <p>We care about your data in our <a href="/privacy-policy">privacy policy</a>.</p>
                     </div>
                 </div>
@@ -192,9 +192,9 @@ const Home = () => {
                         <a href="/">Style Guide</a>
                         <a href="/">Change Log</a>
                     </div>
-                    <div>
+                    <div className='end-right'>
                         <a href="/">Made By Sumit</a>
-                        <p>Powered By ReactJs</p>
+                        <span>Powered By ReactJs</span>
                     </div>
                 </div>
             </div>
