@@ -382,3 +382,25 @@
     height: fit-content;
     cursor: pointer;
 }
+.section-11{
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+.top-footer{
+    display: flex   ;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+.mid-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.mid-left{
+    width: 25%;
+}
+.mid-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
