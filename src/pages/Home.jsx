@@ -119,6 +119,16 @@ const Home = () => {
                 </div>
             </div>
         </div>
+        <div className="section-10">
+            <div className='section-10-inner'>
+                <div>
+
+                <p>The Future of Personal Aviation</p>
+                <h1>Experience the Next Era of Flight</h1>
+                </div>
+                <button>Discover the Electrax</button>
+            </div>
+        </div>
     </div>
   )
 }
